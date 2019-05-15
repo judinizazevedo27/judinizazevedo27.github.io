@@ -14,14 +14,24 @@
 
         <!-- we add the assets so in order to load them (use absolute paths) -->
           <a-assets>
-            <a-asset-item id="hello-obj" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/hello/hello.obj"></a-asset-item>
-            <a-asset-item id="hello-mtl" src="https://raw.githubusercontent.com/scopik/scopik.github.io/master/assets/hello/hello.mtl"></a-asset-item>
+            <a-asset-item id="hello-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/hello/hello.obj"></a-asset-item>
+            <a-asset-item id="hello-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/hello/hello.mtl"></a-asset-item>
           </a-assets>
-
+<a-assets>
+            <a-asset-item id="carA-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/carA/carA.obj"></a-asset-item>
+            <a-asset-item id="carA-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/carA/carA.mtl"></a-asset-item>
+          </a-assets>
           <!-- we add the markers and reference the assets inside as entities -->
           <a-marker id="animated-marker1" type='barcode' value='1'>
               <a-entity obj-model="obj: #hello-obj; mtl: #hello-mtl"></a-entity>
           </a-marker>
+
+                    <!-- we add the markers and reference the assets inside as entities -->
+          <a-marker id="animated-marker2" type='barcode' value='2'>
+              <a-entity obj-model="obj: #carA-obj; mtl: #carA-mtl"></a-entity>
+          </a-marker>
+
+</a-assets>
 
           <!-- use this <a-entity camera> to support multiple-markers, otherwise use <a-marker-camera> instead of </a-marker> -->
           <a-entity camera></a-entity>
