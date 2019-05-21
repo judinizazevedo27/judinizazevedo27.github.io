@@ -17,25 +17,49 @@
             <a-asset-item id="hello-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/hello/hello.obj"></a-asset-item>
             <a-asset-item id="hello-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/hello/hello.mtl"></a-asset-item>
           </a-assets>
-<a-assets>
+          <a-assets>
             <a-asset-item id="carA-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/carA/carA.obj"></a-asset-item>
             <a-asset-item id="carA-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/carA/carA.mtl"></a-asset-item>
           </a-assets>
-          <a-asset-item id="carB-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/carB/carB.obj"></a-asset-item>
+          <a-assets>
+            <a-asset-item id="carB-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/carB/carB.obj"></a-asset-item>
             <a-asset-item id="carB-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/carB/carB.mtl"></a-asset-item>
           </a-assets>
-          <!-- we add the markers and reference the assets inside as entities -->
+          <a-assets>
+            <a-asset-item id="cone-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/cone/cone.obj"></a-asset-item>
+            <a-asset-item id="cone-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/cone/cone.mtl"></a-asset-item>
+          </a-assets>
+          <a-assets>
+            <a-asset-item id="floorplan-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/floorplan/floorplan.obj"></a-asset-item>
+            <a-asset-item id="floorplan-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/floorplan/floorplan.mtl"></a-asset-item>
+          </a-assets>
+          <a-assets>
+            <a-asset-item id="tree-obj" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/tree/tree.obj"></a-asset-item>
+            <a-asset-item id="tree-mtl" src="https://raw.githubusercontent.com/judinizazevedo27/judinizazevedo27.github.io/master/assets/tree/tree.mtl"></a-asset-item>
+          </a-assets>
+        <!-- we add the markers and reference the assets inside as entities -->
           <a-marker id="animated-marker1" type='barcode' value='1'>
               <a-entity obj-model="obj: #hello-obj; mtl: #hello-mtl"></a-entity>
           </a-marker>
-
-                    <!-- we add the markers and reference the assets inside as entities -->
+        <!-- we add the markers and reference the assets inside as entities -->
           <a-marker id="animated-marker2" type='barcode' value='2'>
               <a-entity obj-model="obj: #carA-obj; mtl: #carA-mtl"></a-entity>
           </a-marker>
-<!-- we add the markers and reference the assets inside as entities -->
+        <!-- we add the markers and reference the assets inside as entities -->
           <a-marker id="animated-marker3" type='barcode' value='3'>
               <a-entity obj-model="obj: #carB-obj; mtl: #carB-mtl"></a-entity>
+          </a-marker>
+        <!-- we add the markers and reference the assets inside as entities -->
+          <a-marker id="animated-marker3" type='barcode' value='4'>
+              <a-entity obj-model="obj: #cone-obj; mtl: #cone-mtl"></a-entity>
+          </a-marker>
+        <!-- we add the markers and reference the assets inside as entities -->
+          <a-marker id="animated-marker2" type='barcode' value='5'>
+              <a-entity obj-model="obj: #floorplan-obj; mtl: #floorplan-mtl"></a-entity>
+          </a-marker>
+        <!-- we add the markers and reference the assets inside as entities -->
+          <a-marker id="animated-marker2" type='barcode' value='6'>
+              <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
           </a-marker>
 </a-assets>
 
